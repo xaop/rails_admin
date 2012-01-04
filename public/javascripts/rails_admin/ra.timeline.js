@@ -125,7 +125,7 @@
       var i = this.options.range,
           date = this._getCurrentDate();
 
-      this.monthWidth = Math.floor(this.months.width() / this.options.range) - 1;
+      this.monthWidth = Math.floor(this.months.width() / this.options.range) - 1 - 10;
 
       while (i--) {
         this.months.prepend(
